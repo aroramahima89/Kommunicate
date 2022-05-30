@@ -1,0 +1,41 @@
+body{
+    box-sizing:border-box;
+}
+p{
+    color:rgba(152, 152, 223, 0.686);
+}
+.nav{
+    display:flex;
+    height:50px;
+    justify-content:space-between;
+    max-width:100%;
+   
+}
+ul{
+    display:flex;
+    list-style: none;
+}
+li{
+    margin-right:4px;
+}
+.right{
+    flex:3;
+    display:flex;
+    
+}
+.a{
+    flex:1;
+}
+.b{
+  
+    flex:3;
+}
+.c{
+    flex:1;
+}
+button{
+    background-color:#2DD35C;
+    height:36px;
+    width:5rem;
+    border-radius:0.2rem;
+}
