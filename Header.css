@@ -2,32 +2,36 @@ body{
     box-sizing:border-box;
 }
 p{
+    padding-left:3rem;
     color:rgba(152, 152, 223, 0.686);
 }
 .nav{
     display:flex;
     height:50px;
-    justify-content:space-between;
-    max-width:100%;
    
 }
 ul{
-    display:flex;
+     display:flex; 
     list-style: none;
 }
 li{
-    margin-right:4px;
+    display:inline-block;
+    padding:1rem;
+    margin:1rem;
+    color:grey;
 }
-.right{
-    flex:3;
-    display:flex;
-    
-}
+.right{ 
+    display:inline-block;
+     flex:3; 
+     display:flex; 
+ } 
 .a{
     flex:1;
 }
 .b{
-  
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
     flex:3;
 }
 .c{
